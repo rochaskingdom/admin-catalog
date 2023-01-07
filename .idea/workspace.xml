@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fbade13-43bc-42e2-bed5-9065092a28ee" name="Changes" comment="Criado projeto base com submódulos">
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/vinicius/admin/catalog/domain/category/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/test/java/com/vinicius/admin/catalog/domain/category/CategoryTest.java" afterDir="false" />
+    <list default="true" id="5fbade13-43bc-42e2-bed5-9065092a28ee" name="Changes" comment="feat: Criado entity Category com TDD">
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/vinicius/admin/catalog/domain/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/vinicius/admin/catalog/domain/Identifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/vinicius/admin/catalog/domain/ValueObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/vinicius/admin/catalog/domain/Category.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/test/java/com/vinicius/admin/catalog/domain/CategoryTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +179,7 @@
       <option name="presentableId" value="Default" />
       <updated>1673057831425</updated>
       <workItem from="1673057833510" duration="2000" />
-      <workItem from="1673059382644" duration="1119000" />
+      <workItem from="1673059382644" duration="1727000" />
     </task>
     <task id="LOCAL-00001" summary="Criado projeto base com submódulos">
       <created>1673059261453</created>
@@ -196,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673059622748</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: Criado entity Category com TDD">
+      <created>1673060666901</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673060666901</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,10 +210,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Criado projeto base com submódulos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criado projeto base com submódulos" />
+    <MESSAGE value="feat: Criado entity Category com TDD" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Criado entity Category com TDD" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/admin_catalog$CategoryTest_givenAValidParams_whenCallNewCategory_thenInstantiateACategory.ic" NAME="CategoryTest.givenAValidParams_whenCallNewCategory_thenInstantiateACategory Coverage Results" MODIFIED="1673060544675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
