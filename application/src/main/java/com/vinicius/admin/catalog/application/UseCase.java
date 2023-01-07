@@ -1,7 +1,6 @@
 package com.vinicius.admin.catalog.application;
 
-public class UseCase {
-    public static void main(String[] args) {
-        System.out.println("Hello world!");
-    }
+public abstract class UseCase<IN, OUT> {
+
+    public abstract OUT execute(IN in);
 }
